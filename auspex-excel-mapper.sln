@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auspex.Excel.Mapper", "Auspex.Excel.Mapper\Auspex.Excel.Mapper.csproj", "{6AFDA16A-ACBB-416E-8CC3-7DF0A410947B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auspex.Excel.Mapper.Tests", "Auspex.Excel.Mapper.Tests\Auspex.Excel.Mapper.Tests.csproj", "{4C9E2F46-95F3-49AB-9A7C-DB85B4B84799}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auspex.Excel.Mapper.Example", "Auspex.Excel.Mapper.Example\Auspex.Excel.Mapper.Example.csproj", "{D60EC2E0-8E6F-4994-8EED-605CA0610C64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4C9E2F46-95F3-49AB-9A7C-DB85B4B84799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C9E2F46-95F3-49AB-9A7C-DB85B4B84799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C9E2F46-95F3-49AB-9A7C-DB85B4B84799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60EC2E0-8E6F-4994-8EED-605CA0610C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60EC2E0-8E6F-4994-8EED-605CA0610C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60EC2E0-8E6F-4994-8EED-605CA0610C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60EC2E0-8E6F-4994-8EED-605CA0610C64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

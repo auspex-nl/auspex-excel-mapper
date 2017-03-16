@@ -6,8 +6,9 @@ namespace Auspex.Excel.Mapper.Options
 {
     public enum FieldTypeConversionOptions
     {
-        TryConvertOnFieldTypeMismatch = 0,
-        ThrowOnFieldTypeMismatch = 1,
-        IgnoreFieldTypeMismatch = 2
+        None = 0,
+        TryConvertOnFieldTypeMismatch = 1,
+        ThrowOnFieldTypeMismatch = 2,
+        IgnoreFieldTypeMismatch = 4
     }
 }

@@ -7,7 +7,8 @@ namespace Auspex.Excel.Mapper.Options
     [Flags]
     public enum FileReadOptions
     {
-        FirstRowContainsFieldNames = 0,
-        IgnoreInvalidRows = 1,
+        None = 0,
+        FirstRowContainsFieldNames = 1,
+        IgnoreInvalidRows = 2,
     }
 }
